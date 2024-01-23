@@ -17,8 +17,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Sample title"
-            android:textColor="@color/black"
-            android:textSize="24sp"
+            android:layout_marginBottom="4sp"
+            android:textColor="@color/colorTitle"
+            android:textSize="20sp"
             android:textStyle="bold" />
 
         <TextView
@@ -26,10 +27,10 @@
             android:layout_width="wrap_content"
             android:layout_height="0dp"
             android:layout_weight="1"
+            android:layout_marginBottom="16sp"
             android:text="Sample id"
-            android:textAlignment="textEnd"
-            android:textColor="@color/black"
-            android:textSize="14sp" />
+            android:textColor="@color/colorSubtitle"
+             />
 
 
         <TextView
@@ -37,7 +38,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Sample body text."
-            android:textColor="@color/black"
+            android:textColor="@color/colorBody"
             android:textSize="16sp" />
     </LinearLayout>
 
